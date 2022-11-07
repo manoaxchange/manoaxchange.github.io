@@ -12,4 +12,17 @@ Our application provides a marketplace for students to purchase and sell goods. 
 
 ## Mockup Pages
 
-...
+### Landing Page
+![Landing](images/landing.png)
+### Shop Page
+![Shop](images/shop.png)
+### Logged In User
+![Logged In User](images/logged-in-user.png)
+### Admin
+![Admin](images/admin.png)
+### Item Page
+![Item Page](images/item_page.png)
+### Sell Page
+![Sell Item](images/sell_page.png)
+### Profile
+![Profile](images/user_profile.png)
