@@ -14,16 +14,27 @@ Our application provides a marketplace for students to purchase and sell goods. 
 ## Mockup Pages
 
 ### Landing Page
+This page is visible to people who first land on the site. There is a carousel that shows random items in the store.
 ![Landing](images/landing.png)
-### Shop Page
-![Shop](images/shop.png)
 ### Logged In User
+When the user is logged in, the navbar will have 'sell' and 'sellers' options.
 ![Logged In User](images/logged-in-user.png)
+### Shop Page
+The shop page is available for anybody, and it shows items. There is also a side menu where users can select what category they are interested in or they can search for items.
+![Shop](images/shop.png)
 ### Admin
+The admin can see all of the users, and all of the items. Reports will be displayed on the admin's home page.
 ![Admin](images/admin.png)
 ### Item Page
+The item page contains all of the information about the item, and the item can be purchased or added to cart.
 ![Item Page](images/item_page.png)
 ### Sell Page
+Users can also post items for sale.
 ![Sell Item](images/sell_page.png)
 ### Profile
+Each member has a profile page that can be visited by other users.
 ![Profile](images/user_profile.png)
+
+## Milestone 1
+For the first milestone, the goal is to create the mockup pages, and creating the basic schema of the items.
+![](images/milestone1-11092022.png)
