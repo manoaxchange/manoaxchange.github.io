@@ -1,7 +1,7 @@
 # Manoa Xchange
 ## Overview
 
-Living on campus tends to be a short lived experience. Many students either move into off campus housing or go abroad to after finishing their degree(s). Lots of campus specific goods are built up, and there is a need for a marketplace where students can buy and sell them.
+Living on campus tends to be a short lived experience. Many students either move into off campus housing or go abroad after finishing their degree(s). Lots of campus specific goods are built up, and there is a need for a marketplace where students can buy and sell them.
 
 ## Goals
 
