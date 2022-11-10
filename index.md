@@ -38,6 +38,7 @@ Each member has a profile page that can be visited by other users.
 ## Milestone 1
 For the first milestone, the goal is to create the mockup pages, and creating the basic schema of the items.
 ![](images/milestone1-11092022.png)
+![](images/m1-project-page-description.png)
 
 ## Brainstorming
 - Possibly using Amazon S3 for image uploading
