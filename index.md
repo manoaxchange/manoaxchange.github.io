@@ -11,7 +11,14 @@ Large masses of students quickly come and go in the dorms of UH Manoa. This lead
 
 Our application provides a marketplace for students to purchase and sell goods. Anybody can browse the marketplace, and can easily search the marketplace by using a search bar or using one of many premade filters. However, there is more site functionality when people log in as a User (aka UHM student). Users are able to browse the marketplace, and are able to browse sellers and their user profile page (that lists the user's wares and rating). Users are also able to order/offer/buy goods from the marketplace, and create/list goods on the marketplace. Users are also able to report users and/or items on the markertplace. Admins are able to remove items on the marketplace that are deemed as unsafe, inappropriate, or illegal.
 
-## Mockup Pages
+## Deployed Application
+
+You can access our (in working) deployed website here:
+[Manoaxchange](http://188.166.104.165/)
+
+## User Guide
+
+The following sections provides a walkthrough of Manoaxchange's user interface and application features. As this project is in development, every page is accessible but not fully functional.
 
 ### Landing Page
 This page is visible to people who first land on the site. There is a carousel that shows random items in the store.
@@ -35,10 +42,28 @@ Users can also post items for sale.
 Each member has a profile page that can be visited by other users.
 ![Profile](images/user_profile.png)
 
-## Milestone 1
+## Development History
+
+The following sections document the development history of Manoaxchange.
+
+### Milestone 1 - Basic Necessities
 For the first milestone, the goal is to create the mockup pages, and creating the basic schema of the items.
+Milestone 1 was managed using [Manoaxchange GitHub Project Board M1](https://github.com/orgs/manoaxchange/projects/1)
 ![](images/milestone1-11092022.png)
 ![](images/m1-project-page-description.png)
+
+### Milestone 2 - Connecting Databases & Refining UI
+For the second milestone, the goal is to polish up and refine our application. Existing pages will look less bare with additional CSS/bootstrap properties, and our collection database will have connections between each other and function correctly.
+Milestone 2 was managed using [Manoaxchange GitHub Project Board M2](https://github.com/orgs/manoaxchange/projects/2)
+
+## Team Members
+
+Manoaxchange was designed and implemented by Nicholas Kaw, Gian Portillo, and Giorgio Tran. Since this project was not supervised by a project manager, all members contributed and adhered to the [Team Contract](https://docs.google.com/document/d/10dSg54SKbQ1Hqc51PzH4RVmZYIIof93CubZPhwS6ZQs/edit?usp=sharing).
+
+If you have any comments or questions, feel free to contact us on our via GitHub or email:
+- [Nicholas Kaw](https://github.com/nickkaw) <kawn@hawaii.edu>
+- [Gian Portillo](https://github.com/Geeean) <gtp@hawaii.edu>
+- [Giorgio Tran](https://github.com/giorgio-tran) <ttran2@hawaii.edu>
 
 ## Brainstorming
 - Possibly using Amazon S3 for image uploading
