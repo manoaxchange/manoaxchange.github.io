@@ -14,11 +14,11 @@ Our application provides a marketplace for students to purchase and sell goods. 
 ## Deployed Application
 
 You can access our (in working) deployed website here:
-[Manoaxchange](http://188.166.104.165/)
+[ManoaXchange](http://188.166.104.165/)
 
 ## User Guide
 
-The following sections provides a walkthrough of Manoaxchange's user interface and application features. As this project is in development, every page is accessible but not fully functional.
+The following sections provides a walkthrough of ManoaXchange's user interface and application features. As this project is in development, every page is accessible but not fully functional.
 
 ### Landing Page
 This page is visible to people who first land on the site. There is a carousel that shows random items in the store.
@@ -44,7 +44,7 @@ Each member has a profile page that can be visited by other users.
 
 ## Development History
 
-The following sections document the development history of Manoaxchange.
+The following sections document the development history of ManoaXchange.
 
 ### Milestone 1 - Basic Necessities
 For the first milestone, the goal is to create the mockup pages, and creating the basic schema of the items.
@@ -66,5 +66,5 @@ If you have any comments or questions, feel free to contact us on our via GitHub
 - [Giorgio Tran](https://github.com/giorgio-tran) <ttran2@hawaii.edu>
 
 ## Brainstorming
-- Possibly using Amazon S3 for image uploading
+- Possibly using Amazon S3 for image uploading or Cloudinary
 - Implementing rating system for both sellers and items
