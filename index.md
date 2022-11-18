@@ -21,18 +21,20 @@ You can access our (in working) deployed website here:
 The following sections provides a walkthrough of ManoaXchange's user interface and application features. As this project is in development, every page is accessible but not fully functional.
 
 ### Landing Page
-This page is visible to people who first land on the site. There is a carousel that shows random items in the store.
+This page is visible to people who first land on the site and contains a welcome message for everyone.
+##### Not Logged In
+If you are not logged in, then you will have a landing page with 'shop' and 'categories' as navbar options. Also, there is a sign up prompt underneath the welcome message.
 ![Landing](images/imagesM1/home1.png)
 ![Landing](images/imagesM1/home2.png)
+##### Logged In
+If you are logged in as a user, then the navbar will have an added 'sell' option. Also, there is a carousel that shows ranodm items in the store underneath the welcome message.
+![Logged In User](images/imagesM1/loggedin-home.png)
 ### Sign-Up Page
 New users without an account can sign up on this page.
 ![SignUp](images/imagesM1/signup.png)
 ### Sign-In Page
 Users with an existing account or after registering, users can now login to the site on this page.
 ![SignIn](images/imagesM1/login.png)
-### Logged In User
-When the user is logged in, the navbar will have 'sell' and 'sellers' options.
-![Logged In User](images/imagesM1/loggedin-home.png)
 ### Shop Page
 The shop page is available for anybody, and it shows items. There is also a side menu where users can select what category they are interested in or they can search for items.
 ![Shop](images/imagesM1/shop1.png)
@@ -57,12 +59,12 @@ The following sections document the development history of ManoaXchange.
 ### Milestone 1 - Basic Necessities
 For the first milestone, the goal is to create the mockup pages, and creating the basic schema of the items.
 Milestone 1 was managed using [Manoaxchange GitHub Project Board M1](https://github.com/orgs/manoaxchange/projects/1)
-![](images/milestone1-11092022.png)
+![](images/m1-project-page-fin)
 
 ### Milestone 2 - Connecting Databases & Refining UI
 For the second milestone, the goal is to polish up and refine our application. Existing pages will look less bare with additional CSS/bootstrap properties, and our collection database will have connections between each other and function correctly.
 Milestone 2 was managed using [Manoaxchange GitHub Project Board M2](https://github.com/orgs/manoaxchange/projects/2)
-![](#)
+![](images/m2-project-page-start)
 
 ## Team Members
 
@@ -76,3 +78,11 @@ If you have any comments or questions, feel free to contact us on our via GitHub
 ## Brainstorming
 - Possibly using Amazon S3 for image uploading or Cloudinary
 - Implementing rating system for both sellers and items
+
+## Community Feedback
+
+Coming soon!
+
+## Developer Guide
+
+Coming soon!
