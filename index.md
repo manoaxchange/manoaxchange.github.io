@@ -14,7 +14,7 @@ Our application provides a marketplace for students to purchase and sell goods. 
 ## Deployment
 
 You can access our (in working) deployed website here:
-[Manoa Xchange](http://188.166.104.165/)
+[Manoa Xchange](https://manoaxchange.shop/)
 
 ## User Guide
 
