@@ -91,11 +91,18 @@ Coming soon!
 ### API Credentials
 #### Gmail API
 1. Create a Gmail account to be used for the project
-2. Follow the instructions in the section 'Gmail API Setup in Node.js' on [this guide](https://fusebit.io/blog/gmail-api-node-tutorial/?utm_source=www.google.com&utm_medium=referral&utm_campaign=none) to obtain credentials
-3. Keep note of: Client ID, Client Secret, and Refresh Token
+2. Follow the instructions in the section **Gmail API Setup in Node.js** on [this guide](https://fusebit.io/blog/gmail-api-node-tutorial/?utm_source=www.google.com&utm_medium=referral&utm_campaign=none) to obtain credentials
+3. Keep note of: Client ID, Client Secret, and Refresh Token. They will be used as environmental variables.
 4. [Enable the Gmail API](https://developers.google.com/gmail/api/quickstart/nodejs#enable_the_api)
 
 #### Cloudinary API
 1. Create a [Cloudinary](https://cloudinary.com/) account
 2. Log in, go to Settings &rarr; Upload, and add an 'Upload Preset'
-3. Keep note of the name of your upload preset
+3. Adjust settings if desired, and continue by pressing 'Save'
+4. Keep note of the upload preset's name
+5. Going back to the home page, keep note of: Cloudinary URL, Cloud Name, API Key, and API secret. They will be used as environmental variables.
+
+### Running Application
+1. Clone the application to your local machine
+2. Navigate to the root directory of the application and enter `cd app` in the terminal to navigate to the app directory
+3. Run `meteor npm install`
