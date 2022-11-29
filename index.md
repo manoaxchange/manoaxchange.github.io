@@ -1,7 +1,8 @@
 # Manoa Xchange
+[![ci-manoaxchange](https://github.com/manoaxchange/manoaxchange/actions/workflows/ci.yml/badge.svg)](https://github.com/manoaxchange/manoaxchange/actions/workflows/ci.yml)
 ## Overview
 
-Living on campus tends to be a short lived experience. Many students either move into off campus housing or go abroad after finishing their degree(s). Lots of campus specific goods are built up, and there is a need for a marketplace where students can buy and sell them. Introducing Manoa Xchange, a convenient marketplace application that does just that! For more information continue reading or check out our [Organization Page](https://github.com/manoaxchange).
+Living on campus tends to be a short lived experience. Many students either move into off campus housing or go abroad after finishing their degree(s). Lots of campus specific goods are built up, and there is a need for a marketplace where students can buy and sell them. Introducing Manoa Xchange, a convenient marketplace application that does just that! For more information continue reading or check out our [organization page](https://github.com/manoaxchange).
 
 ## Goals
 
@@ -84,5 +85,17 @@ If you have any comments or questions, feel free to contact us on our via GitHub
 Coming soon!
 
 ## Developer Guide
+### Meteor
+1. Install meteor. Please follow the instructions from the [Meteor Documentation](https://docs.meteor.com/install.html)
 
-Coming soon!
+### API Credentials
+#### Gmail API
+1. Create a Gmail account to be used for the project
+2. Follow the instructions in the section 'Gmail API Setup in Node.js' on [this guide](https://fusebit.io/blog/gmail-api-node-tutorial/?utm_source=www.google.com&utm_medium=referral&utm_campaign=none) to obtain credentials
+3. Keep note of: Client ID, Client Secret, and Refresh Token
+4. [Enable the Gmail API](https://developers.google.com/gmail/api/quickstart/nodejs#enable_the_api)
+
+#### Cloudinary API
+1. Create a [Cloudinary](https://cloudinary.com/) account
+2. Log in, go to Settings &rarr; Upload, and add an 'Upload Preset'
+3. Keep note of the name of your upload preset
