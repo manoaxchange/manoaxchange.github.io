@@ -25,30 +25,49 @@ The following sections provides a walkthrough of ManoaXchange's user interface a
 This page is visible to people who first land on the site and contains a welcome message for everyone.
 ##### Not Logged In
 If you are not logged in, then you will have a landing page with 'shop' and 'categories' as navbar options. Also, there is a sign up prompt underneath the welcome message.
-![Landing](images/imagesM1/home1.png)
-![Landing](images/imagesM1/home2.png)
+![Landing](images/M2/landing.png)
+![Landing](images/M1/home2.png)
 ##### Logged In
 If you are logged in as a user, then the navbar will have an added 'sell' option. Also, there is a carousel that shows ranodm items in the store underneath the welcome message.
-![Logged In User](images/imagesM1/loggedin-home.png)
+![Logged In User](images/M2/loggedin-home.png)
 ### Sign-Up Page
 New users without an account can sign up on this page.
-![SignUp](images/imagesM1/signup.png)
+![SignUp](images/M2/signup.png)
 ### Sign-In Page
 Users with an existing account or after registering, users can now login to the site on this page.
-![SignIn](images/imagesM1/login.png)
+![SignIn](images/M2/login.png)
 ### Shop Page
 The shop page is available for anybody, and it shows items. There is also a side menu where users can select what category they are interested in or they can search for items.
-![Shop](images/imagesM1/shop1.png)
-![Shop](images/imagesM1/shop2.png)
+![Shop](images/M2/shop/shop1.png)
+![Shop](images/M2/shop/shop2.png)
+#### Reporting Button
+When the user clicks on the flag, there is a pop-up where a report can be submitted.
+![Report](images/M2/report.png)
 ### Admin
 The admin can see all of the users, and all of the items. Reports will be displayed on the admin's home page.
-![Admin](images/imagesM1/reports.png)
+![Admin](images/M2/admin/admin-report.png)
+Admins can remove items by clicking on the red button in the **Remove** column.
+![Admin Remove](images/M2/admin/admin-remove.png)
+Admins can also dismiss reports by clicking on the blue button in the **Dismiss** column.
 ### Item Page
-The item page contains all of the information about the item, and the item can be purchased or added to cart.
-![Item Page](images/item_page.png)
+The item page contains all of the information about the item. The item can be reported, and the user can message the seller.
+![Item Page](images/M2/itempage/item-page.png)
+#### Message Seller
+Messaging the seller will show a confirmation message, and upon clicking **Message** an email will be sent to both the buyer and the seller.
+![](images/M2/itempage/message-seller.png)
+![](images/M2/itempage/email.png)
+![](images/M2/itempage/email-message.png)
+
+### My Items Page
+There is also a **My Items** page, where users can see the items that they put up for sale, and they can edit (pencil), mark as sold (dollar sign), or remove the item (trashcan).
+![](images/M2/myitemspage/my-items.png)
+![](images/M2/myitemspage/edit.png)
+![](images/M2/myitemspage/sold.png)
+![](images/M2/myitemspage/delete.png)
+
 ### Sell Page
-Users can also post items for sale.
-![Sell Item](images/imagesM1/Sell.png)
+Users can post items for sale.
+![Sell Item](images/M2/sell.png)
 ### Profile
 Each member has a profile page that can be visited by other users.
 ![Profile](images/user_profile.png)
@@ -75,10 +94,6 @@ If you have any comments or questions, feel free to contact us on our via GitHub
 - [Nicholas Kaw](https://github.com/nickkaw) | <kawn@hawaii.edu>
 - [Gian Portillo](https://github.com/Geeean) | <gtp@hawaii.edu>
 - [Giorgio Tran](https://github.com/giorgio-tran) | <ttran2@hawaii.edu>
-
-## Brainstorming
-- Possibly using Amazon S3 for image uploading or Cloudinary
-- Implementing rating system for both sellers and items
 
 ## Community Feedback
 
