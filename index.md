@@ -106,3 +106,94 @@ Coming soon!
 1. Clone the application to your local machine
 2. Navigate to the root directory of the application and enter `cd app` in the terminal to navigate to the app directory
 3. Run `meteor npm install`
+4. Inside of the `config` directory create a file called `settings.devauth.json`. This file will be gitignored, and it contains default data to be loaded as well as Gmail and Cloudinary secrets.
+5. In `settings.devauth.json` paste the following code:
+    ```json
+    {
+      "defaultAccounts": [
+        { "email": "kawn@hawaii.edu", "password": "changeme", "role": "admin" },
+        { "email": "gtp@hawaii.edu", "password": "changeme", "role": "admin" },
+        { "email": "ttran2@hawaii.edu", "password": "changeme" }
+    
+      ],
+    
+      "defaultItems": [
+        { "name": "Organic Chemistry 7th Edition", "image":  "https://via.placeholder.com/500.png?text=Item", "price":  20.00, "owner": "kawn@hawaii.edu", "description":  "Brand new, only used for one semester.", "category": "Books",
+          "sold": false
+        },
+        { "name": "Keyboard", "image": "https://via.placeholder.com/500.png?text=Item", "price":  30.00, "owner": "kawn@hawaii.edu", "description":  "Brand new, all keys are functional.", "category": "Electronics",
+          "sold": true
+        },
+        { "name": "Bike", "image":  "https://via.placeholder.com/500.png?text=Item", "price":  20.00, "owner": "gtp@hawaii.edu", "description":  "Brand new, only used for one semester.", "category": "Transportation", "sold": false },
+        { "name": "Dish", "image":  "https://via.placeholder.com/500.png?text=Item", "price":  20.00, "owner": "gtp@hawaii.edu", "description":  "Brand new, only used for one semester.", "category": "Housewares", "sold": true },
+        { "name": "Tshirt", "image":  "https://via.placeholder.com/500.png?text=Item", "price":  20.00, "owner": "ttran2@hawaii.edu", "description":  "Brand new, only used for one semester.", "category": "Clothing", "sold": false },
+        { "name": "Some random stuff", "image":  "https://via.placeholder.com/500.png?text=Item", "price":  20.00, "owner": "ttran2@hawaii.edu", "description":  "Brand new, only used for one semester.", "category": "Miscellaneous", "sold": false }
+      ],
+    
+      "defaultProfiles": [
+        { "email": "kawn@hawaii.edu", "firstName": "Nicholas", "lastName": "Kaw", "bio": "Econ Major, Ics Minor", "picture": "https://github.com/nickkaw.png", "owner": "kawn@hawaii.edu" },
+        { "email": "ttran2@hawaii.edu", "firstName": "Giorgio", "lastName": "Tran", "bio": "Kinesiology Graduate, Ics MD", "picture": "https://github.com/.png", "owner": "ttran2@hawaii.edu" },
+        { "email": "gtp@hawaii.edu", "firstName": "Gian", "lastName": "Portillo", "bio": "Ics Major", "picture": "https://github.com/.png", "owner": "gtp@hawaii.edu" }
+      ],
+    
+      "gmailAuth": {
+        "TYPE": "OAuth2",
+        "USER": "<gmail-email>",
+        "CLIENT_ID": "<gcloud-client-id>",
+        "CLIENT_SECRET": "<gcloud-secret>",
+        "REFRESH_TOKEN": "<gcloud-refresh-token>"
+      },
+    
+      "REDIRECT_URI": "https://developers.google.com/oauthplayground",
+    
+      "CLOUDINARY_URL": "<cloudinary-url>",
+      "CLOUDINARY_NAME": "<cloudinary-name",
+      "CLOUDINARY_APIKEY": "<cloudinary-api-key",
+      "CLOUDINARY_APISECRET": "<cloudinary-api-secret",
+      "CLOUDINARY_UPLOADPRESET": "<cloudinary-uploadpreset>"
+    
+    }
+    ```
+6. Change the Gmail and Cloudinary credentials with your own
+7. Navigate back into `app` via the terminal
+8. Run `meteor npm run start`
+9. This is the result of successfully starting the application:
+    ```
+    giorgio@Giorgios-MacBook-Air app % meteor npm run start
+    
+    > meteor-application-template-react@ start /Users/giorgio/repos/manoaxchange/app
+    > meteor --no-release-check --exclude-archs web.browser.legacy,web.cordova --settings ../config/settings.devauth.json
+    
+    [[[[[ ~/repos/manoaxchange/app ]]]]]          
+    
+    => Started proxy.                             
+    => Started HMR server.                        
+    Browserslist: caniuse-lite is outdated. Please run:
+      npx browserslist@latest --update-db
+      Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+    Browserslist: caniuse-lite is outdated. Please run:
+      npx browserslist@latest --update-db
+      Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+    => Started MongoDB.                           
+    I20221129-13:56:19.926(-10)? Creating the default user(s)
+    I20221129-13:56:19.934(-10)?   Creating user: kawn@hawaii.edu.
+    I20221129-13:56:19.999(-10)?   Creating user: gtp@hawaii.edu.
+    I20221129-13:56:20.063(-10)?   Creating user: ttran2@hawaii.edu.
+    I20221129-13:56:20.125(-10)? Creating default items.
+    I20221129-13:56:20.126(-10)?   Adding: Organic Chemistry 7th Edition (kawn@hawaii.edu)
+    I20221129-13:56:20.148(-10)?   Adding: Keyboard (kawn@hawaii.edu)
+    I20221129-13:56:20.149(-10)?   Adding: Bike (gtp@hawaii.edu)
+    I20221129-13:56:20.150(-10)?   Adding: Dish (gtp@hawaii.edu)
+    I20221129-13:56:20.150(-10)?   Adding: Tshirt (ttran2@hawaii.edu)
+    I20221129-13:56:20.151(-10)?   Adding: Some random stuff (ttran2@hawaii.edu)
+    I20221129-13:56:20.153(-10)? Creating default profiles.
+    I20221129-13:56:20.153(-10)?   Adding: kawn@hawaii.edu (kawn@hawaii.edu)
+    I20221129-13:56:20.172(-10)?   Adding: ttran2@hawaii.edu (ttran2@hawaii.edu)
+    I20221129-13:56:20.172(-10)?   Adding: gtp@hawaii.edu (gtp@hawaii.edu)
+    I20221129-13:56:20.212(-10)? Monti APM: completed instrumenting the app
+    => Started your app.
+    
+    => App running at: http://localhost:3000/
+    
+    ```
+10. The application can be accessed via https://localhost:3000/ 
