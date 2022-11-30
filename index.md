@@ -80,12 +80,12 @@ The following sections document the development history of ManoaXchange.
 ### Milestone 1 - Basic Necessities
 For the first milestone, the goal is to create the mockup pages, and creating the basic schema of the items.
 Milestone 1 was managed using [Manoaxchange GitHub Project Board M1](https://github.com/orgs/manoaxchange/projects/1)
-![](images/m1-project-page-fin)
+![](images/m1-project-page-fin.png)
 
 ### Milestone 2 - Connecting Databases & Refining UI
 For the second milestone, the goal is to polish up and refine our application. Existing pages will look less bare with additional CSS/bootstrap properties, and our collection database will have connections between each other and function correctly.
 Milestone 2 was managed using [Manoaxchange GitHub Project Board M2](https://github.com/orgs/manoaxchange/projects/2)
-![](images/m2-project-page-start)
+![](images/m2-project-page-fin.png)
 
 ### Milestone 3 - Finish Implementing Rating and Seller's Page & Refine UI
 For the third milestone, the goal is to finish implementing the last features and refining the user interface. On top of that, community feedback will be need to ensure user friendliness and usability. Milestone 3 was managed using [ManoaXchange Github Project Board M3](https://github.com/orgs/manoaxchange/projects/3).
@@ -98,10 +98,6 @@ If you have any comments or questions, feel free to contact us on our via GitHub
 - [Nicholas Kaw](https://github.com/nickkaw) | <kawn@hawaii.edu>
 - [Gian Portillo](https://github.com/Geeean) | <gtp@hawaii.edu>
 - [Giorgio Tran](https://github.com/giorgio-tran) | <ttran2@hawaii.edu>
-
-## Community Feedback
-
-Coming soon!
 
 ## Developer Guide
 ### Meteor
@@ -229,3 +225,7 @@ For quality assurance, eslint is used in order to standardize the overall style 
     
     giorgio@Giorgios-MacBook-Air app %
     ```
+
+## Community Feedback
+
+Coming soon!
