@@ -68,9 +68,10 @@ There is also a **My Items** page, where users can see the items that they put u
 ### Sell Page
 Users can post items for sale.
 ![Sell Item](images/M2/sell.png)
+
 ### Profile
 Each member has a profile page that can be visited by other users.
-![Profile](images/user_profile.png)
+![Profile](images/M2/profile-page.png)
 
 ## Development History
 
@@ -86,6 +87,9 @@ For the second milestone, the goal is to polish up and refine our application. E
 Milestone 2 was managed using [Manoaxchange GitHub Project Board M2](https://github.com/orgs/manoaxchange/projects/2)
 ![](images/m2-project-page-start)
 
+### Milestone 3 - Finish Implementing Rating and Seller's Page & Refine UI
+For the third milestone, the goal is to finish implementing the last features and refining the user interface. On top of that, community feedback will be need to ensure user friendliness and usability. Milestone 3 was managed using [ManoaXchange Github Project Board M3](https://github.com/orgs/manoaxchange/projects/3).
+![](images/m3-pp.png)
 ## Team Members
 
 Manoa Xchange was designed and implemented by Nicholas Kaw, Gian Portillo, and Giorgio Tran. Since this project was not supervised by a project manager, all members contributed and adhered to the [Team Contract](https://docs.google.com/document/d/10dSg54SKbQ1Hqc51PzH4RVmZYIIof93CubZPhwS6ZQs/edit?usp=sharing).
@@ -212,3 +216,16 @@ Coming soon!
     
     ```
 10. The application can be accessed via [https://localhost:3000/](https://localhost:3000/) 
+
+### Quality Assurance
+For quality assurance, eslint is used in order to standardize the overall style of the code. 
+1. cd into the `app` directory and run `meteor npm run lint`
+2. There should not be any errors that show up, and this is an example of what it looks like with no errors:
+    ```
+    giorgio@Giorgios-MacBook-Air app % meteor npm run lint
+    
+    > meteor-application-template-react@ lint /Users/giorgio/repos/manoaxchange/app
+    > eslint --quiet --ext .jsx --ext .js ./imports && eslint --quiet --ext .js ./tests
+    
+    giorgio@Giorgios-MacBook-Air app %
+    ```
