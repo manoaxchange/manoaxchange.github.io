@@ -211,4 +211,4 @@ Coming soon!
     => App running at: http://localhost:3000/
     
     ```
-10. The application can be accessed via https://localhost:3000/ 
+10. The application can be accessed via [https://localhost:3000/](https://localhost:3000/) 
