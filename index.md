@@ -99,6 +99,9 @@ If you have any comments or questions, feel free to contact us on our via GitHub
 - [Gian Portillo](https://github.com/Geeean) | <gtp@hawaii.edu>
 - [Giorgio Tran](https://github.com/giorgio-tran) | <ttran2@hawaii.edu>
 
+## Community Feedback
+Here's a link to our [Community Feed Form](https://forms.gle/NDgyVLG9TfiVwxum8)
+
 ## Developer Guide
 ### Meteor
 1. Install meteor. Please follow the instructions from the [Meteor Documentation](https://docs.meteor.com/install.html)
