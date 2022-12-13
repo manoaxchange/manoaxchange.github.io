@@ -120,6 +120,9 @@ Manoa Xchange is a website that is made by us for our community members. We've a
 
 -- Micheal Tran, Biology
 
+> I enjoy the idea of creating a buying/selling website which will cater towards only University of Hawaii students/alumni. The good thing about choosing a specific target, which will most likely be dorm students, is that getting items will be convenient/accessible. Also, having the variety of categories this website includes will make it easier for people to look up or sell items. Lastly, the website is very simplistic to know where to find items, without being distracted/confused by unnecessary imagery. One improvement that could be made is when more items are added to the website, specifically in each category, there doesn't seem to have some sort of organization of how items are listed. This could create the issue of being overwhelmed when you browse through the .
+
+-- Paul Derick Cabuyao, Biology
 ## Developer Guide
 ### Meteor
 1. Install meteor. Please follow the instructions from the [Meteor Documentation](https://docs.meteor.com/install.html)
