@@ -25,53 +25,56 @@ The following sections provides a walkthrough of ManoaXchange's user interface a
 This page is visible to people who first land on the site and contains a welcome message for everyone.
 ##### Not Logged In
 If you are not logged in, then you will have a landing page with 'shop' and 'categories' as navbar options. Also, there is a sign up prompt underneath the welcome message.
-![Landing](images/M2/landing.png)
-![Landing](images/M1/home2.png)
+![Landing](images/M3/landing.png)
+![Landing](images/M3/home2.png)
 ##### Logged In
-If you are logged in as a user, then the navbar will have an added 'sell' option. Also, there is a carousel that shows ranodm items in the store underneath the welcome message.
-![Logged In User](images/M2/loggedin-home.png)
+If you are logged in as a user, then the navbar will have an added 'sell', 'sellers', and 'my items' option. Admin accounts have all that was stated previously with an addition 'ADMIN' option.
+![Logged In User](images/M3/loggedin-home.png)
+![Logged In User](images/M3/loggedin-home-admin.png)
 ### Sign-Up Page
 New users without an account can sign up on this page.
-![SignUp](images/M2/signup.png)
+![SignUp](images/M3/signup.png)
 ### Sign-In Page
 Users with an existing account or after registering, users can now login to the site on this page.
-![SignIn](images/M2/login.png)
+![SignIn](images/M3/login.png)
 ### Shop Page
 The shop page is available for anybody, and it shows items. There is also a side menu where users can select what category they are interested in or they can search for items.
-![Shop](images/M2/shop/shop1.png)
-![Shop](images/M2/shop/shop2.png)
-#### Reporting Button
-When the user clicks on the flag, there is a pop-up where a report can be submitted.
-![Report](images/M2/report.png)
+![Shop](images/M3/shop1.png)
+![Shop](images/M3/shop2.png)
+
 ### Admin
 The admin can see all of the users, and all of the items. Reports will be displayed on the admin's home page.
-![Admin](images/M2/admin/admin-report.png)
+![Admin](images/M3/admin-report.png)
 Admins can remove items by clicking on the red button in the **Remove** column.
-![Admin Remove](images/M2/admin/admin-remove.png)
+![Admin Remove](images/M3/admin-remove.png)
 Admins can also dismiss reports by clicking on the blue button in the **Dismiss** column.
 ### Item Page
 The item page contains all of the information about the item. The item can be reported, and the user can message the seller.
-![Item Page](images/M2/itempage/item-page.png)
+![Item Page](images/M3/item-page.png)
+#### Reporting Button
+When the user clicks on the inappropriate item text, there is a pop-up where a report can be submitted.
+![Report](images/M3/report.png)
+
 #### Message Seller
 Messaging the seller will show a confirmation message, and upon clicking **Message** an email will be sent to both the buyer and the seller.
-![](images/M2/itempage/message-seller.png)
-![](images/M2/itempage/email.png)
-![](images/M2/itempage/email-message.png)
+![](images/M3/message-seller.png)
+![](images/M3/email.png)
+![](images/M3/email-message.png)
 
 ### My Items Page
-There is also a **My Items** page, where users can see the items that they put up for sale, and they can edit (pencil), mark as sold (dollar sign), or remove the item (trashcan).
-![](images/M2/myitemspage/my-items.png)
-![](images/M2/myitemspage/edit.png)
-![](images/M2/myitemspage/sold.png)
-![](images/M2/myitemspage/delete.png)
+There is also a **My Items** page, where users can see the items that they put up for sale, and they can edit, mark as sold, or remove the item by clicking on the options dropdown button.
+![](images/M3/my-items.png)
+![](images/M3/edit.png)
+![](images/M3/sold.png)
+![](images/M3/delete.png)
 
 ### Sell Page
 Users can post items for sale.
-![Sell Item](images/M2/sell.png)
+![Sell Item](images/M3/sell.png)
 
 ### Profile
 Each member has a profile page that can be visited by other users.
-![Profile](images/M2/profile-page.png)
+![Profile](images/M3/profile-page.png)
 
 ## Development History
 
