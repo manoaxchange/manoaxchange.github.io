@@ -114,6 +114,12 @@ If you have any comments or questions, feel free to contact us on our via GitHub
 ## Community Feedback
 Here's a link to our [Community Feed Form](https://forms.gle/NDgyVLG9TfiVwxum8)
 
+Manoa Xchange is a website that is made by us for our community members. We've asked some community members what their opinion about Manoa Xchange is. Here is what they had to say.
+
+> I can see the potential of this application. It reminds me of Facebook marketplace, but for UH students. I think there are several improvements or features that could be added to improve the experience of the users. For example, adding a stock system when selling items in bulk, or adding another box for sellers to write their preferred method of delivery (meeting on campus, etc.). Overall, this application is really useful and would allow students to buy/sell items to each other really easily.
+
+-- Micheal Tran, Biology
+
 ## Developer Guide
 ### Meteor
 1. Install meteor. Please follow the instructions from the [Meteor Documentation](https://docs.meteor.com/install.html)
