@@ -72,9 +72,18 @@ There is also a **My Items** page, where users can see the items that they put u
 Users can post items for sale.
 ![Sell Item](images/M3/sell.png)
 
+### Sellers Page
+Users can view a collection of other user profiles that have items for sale.
+![Sellers](images/M3/sellers.png)
+
 ### Profile
 Each member has a profile page that can be visited by other users.
 ![Profile](images/M3/profile-page.png)
+
+### Sellers Profile
+Profiles visited by other users. Users have the ability to give  users ratings based on how they feel about the him/her. Other users can also view the items that are being sold by that specific user.
+![Sellers Profile](images/M3/sellers-profile.png)
+![Ratings](images/M3/rating.png)
 
 ## Development History
 
