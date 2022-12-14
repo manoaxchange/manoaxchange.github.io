@@ -101,7 +101,7 @@ Milestone 2 was managed using [Manoaxchange GitHub Project Board M2](https://git
 
 ### Milestone 3 - Finish Implementing Rating and Seller's Page & Refine UI
 For the third milestone, the goal is to finish implementing the last features and refining the user interface. On top of that, community feedback will be need to ensure user friendliness and usability. Milestone 3 was managed using [ManoaXchange Github Project Board M3](https://github.com/orgs/manoaxchange/projects/3).
-![](images/m3-pp.png)
+![](images/M3/m3.png)
 ## Team Members
 
 Manoa Xchange was designed and implemented by Nicholas Kaw, Gian Portillo, and Giorgio Tran. Since this project was not supervised by a project manager, all members contributed and adhered to the [Team Contract](https://docs.google.com/document/d/10dSg54SKbQ1Hqc51PzH4RVmZYIIof93CubZPhwS6ZQs/edit?usp=sharing).
@@ -114,7 +114,7 @@ If you have any comments or questions, feel free to contact us on our via GitHub
 ## Community Feedback
 Here's a link to our [Community Feed Form](https://forms.gle/NDgyVLG9TfiVwxum8)
 
-Manoa Xchange is a website that is made by us for our community members. We've asked some community members what their opinion about Manoa Xchange is. Here is what they had to say.
+Manoa Xchange is a website that is made by us for our community members. We've asked some community members what their opinion about Manoa Xchange is. Here are some of their thoughts:
 
 > I can see the potential of this application. It reminds me of Facebook marketplace, but for UH students. I think there are several improvements or features that could be added to improve the experience of the users. For example, adding a stock system when selling items in bulk, or adding another box for sellers to write their preferred method of delivery (meeting on campus, etc.). Overall, this application is really useful and would allow students to buy/sell items to each other really easily.
 
@@ -123,6 +123,13 @@ Manoa Xchange is a website that is made by us for our community members. We've a
 > I enjoy the idea of creating a buying/selling website which will cater towards only University of Hawaii students/alumni. The good thing about choosing a specific target, which will most likely be dorm students, is that getting items will be convenient/accessible. Also, having the variety of categories this website includes will make it easier for people to look up or sell items. Lastly, the website is very simplistic to know where to find items, without being distracted/confused by unnecessary imagery. One improvement that could be made is when more items are added to the website, specifically in each category, there doesn't seem to have some sort of organization of how items are listed. This could create the issue of being overwhelmed when you browse through the .
 
 -- Paul Derick Cabuyao, Biology
+
+Overall the users liked the idea of having an online marketplace where students can buy or sell goods. There was positive feedback in regards to user friendliness of the site and some of the UI/UX decisions. One user also liked the 'Report as inappropriate' button. In regards to functional improvements, the users suggested:
+- Adding an item count and an option for sellers to select their preferred method of delivery
+- More categories, and the ability to have items in multiple categories organized alphabetically
+- Have an internal messaging system instead of communication only happening via email
+
+These are all valid concerns and can definitely be implement in the future. To add on to one of the suggestions, there could potentially be an internal messaging system that uses the Gmail API to inform users that they have received messages, similar to Reddit.
 ## Developer Guide
 ### Meteor
 1. Install meteor. Please follow the instructions from the [Meteor Documentation](https://docs.meteor.com/install.html)
@@ -249,12 +256,3 @@ For quality assurance, eslint is used in order to standardize the overall style 
     
     giorgio@Giorgios-MacBook-Air app %
     ```
-
-## Community Feedback
-
-Overall the users liked the idea of having an online marketplace where students can buy or sell goods. There was positive feedback in regards to user friendliness of the site and some of the UI/UX decisions. One user also liked the 'Report as inappropriate' button. In regards to functional improvements, the users suggested:
-- Adding an item count and an option for sellers to select their preferred method of delivery
-- More categories, and the ability to have items in multiple categories organized alphabetically
-- Have an internal messaging system instead of communication only happening via email
-
-These are all valid concerns and can definitely be implement in the future. To add on to one of the suggestions, there could potentially be an internal messaging system that uses the Gmail API to inform users that they have received messages, similar to Reddit. 
