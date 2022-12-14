@@ -252,4 +252,9 @@ For quality assurance, eslint is used in order to standardize the overall style 
 
 ## Community Feedback
 
-Coming soon!
+Overall the users liked the idea of having an online marketplace where students can buy or sell goods. There was positive feedback in regards to user friendliness of the site and some of the UI/UX decisions. One user also liked the 'Report as inappropriate' button. In regards to functional improvements, the users suggested:
+- Adding an item count and an option for sellers to select their preferred method of delivery
+- More categories, and the ability to have items in multiple categories organized alphabetically
+- Have an internal messaging system instead of communication only happening via email
+
+These are all valid concerns and can definitely be implement in the future. To add on to one of the suggestions, there could potentially be an internal messaging system that uses the Gmail API to inform users that they have received messages, similar to Reddit. 
